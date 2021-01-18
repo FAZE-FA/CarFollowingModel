@@ -41,7 +41,7 @@ for n in range(0,N):
         v[n].append(Vini)
         a[n].append(0)
         for i in range(1,Nstep):
-            if i < 22*n:
+            if i < 22*n: # 22 or 2.2?
                 v[n].append(Vini)
                 a[n].append(0)
             elif (v[n][i-1] + a[n][i-1]*0.1) > 0:
